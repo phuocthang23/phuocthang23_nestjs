@@ -8,6 +8,8 @@ export class UserController {
 
   @Get('/')
   async getAllUsers(): Promise<User[]> {
+    console.log('hihi');
+
     return await this.userService.getAllUsers();
   }
 
