@@ -9,6 +9,7 @@ export class UserController {
   @Get('/')
   async getAllUsers(): Promise<User[]> {
     console.log('hihi');
+    console.log('update hihi v1');
 
     return await this.userService.getAllUsers();
   }
