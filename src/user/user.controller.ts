@@ -11,6 +11,7 @@ export class UserController {
     console.log('hihi');
     console.log('update hihi v1');
     console.log('update hihi v2');
+    console.log('update hihi v3');
 
     return await this.userService.getAllUsers();
   }
