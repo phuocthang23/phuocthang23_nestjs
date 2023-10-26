@@ -10,6 +10,7 @@ export class UserController {
   async getAllUsers(): Promise<User[]> {
     console.log('hihi');
     console.log('update hihi v1');
+    console.log('update hihi v2');
 
     return await this.userService.getAllUsers();
   }
